@@ -1,0 +1,281 @@
+/*  Colours for use on site:-
+	orange: #ff6600
+	white smoke: #F5F5F5
+*/
+#checkoutbox{
+	
+		width: 900px;
+		border: 3px solid #F60;
+		border-collapse: collapse;
+		border-spacing: 20px;
+		background-color: #F5F5F5;
+		padding: 10px;
+		color: #000;
+}
+
+/* This is to stop elements in the "checkoutbox" div from leaking outside
+ * it due to their float:left property.
+ */
+#clear {
+	clear: both;
+}
+
+.checkoutdetails{
+	float: left;
+}
+.checkoutdetails ul{
+list-style: none;
+}
+.checkoutdetails li{
+	padding:10px;
+}
+
+
+#container{ /* using as a padding for the website */
+	margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 75px;
+    margin-left: 75px;
+}
+
+#imagescroll{
+	padding-top: 10px;
+    padding-bottom: 10px;
+    width: 70%;
+    background: rgba(0, 0, 0, 0.4);
+	float:left;
+}
+
+#displayed {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+	opacity:1;
+}
+
+body { 
+	height: justify;
+	background-color: red;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	/* gives the background effect */
+	background-image:
+		linear-gradient(
+		to top left, 
+		black, #ff6600
+		);
+}
+
+#logo {
+	float:left;
+	width:200px;
+	height:200px;
+}
+
+h2 {
+	color: #F5F5F5;
+	margin-left: 10px;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+#DescriptionAndNews1{
+	width:70%;
+	clear: left;
+	color: #F5F5F5;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	font-size:17px;
+	float: left;
+	padding-bottom:20px;
+}
+#DescriptionAndNews{
+	width:70%;
+	clear: left;
+	padding-top:30px;
+	color: #F5F5F5;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	font-size:17px;
+}
+
+#searchBar{
+	width:70%;
+	clear: left;
+	padding-top: 10px;
+	color: #F5F5F5;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	font-size: 17px;
+}
+
+#ConsoleCharts{
+	width:700px;
+	padding-top:30px;
+	padding-bottom:30px;
+}
+
+#ConsoleCharts table,td,th{
+	width:700px;
+	border:3px solid #ff6600;
+	border-collapse: collapse;
+	border-spacing:20px;
+	background-color: #F5F5F5;
+	padding:5px;
+} 
+#filtercont{
+	width:700px;
+	padding-top:30px;
+	padding-bottom:30px;
+}
+
+#filtercont table,td,th{
+	width:700px;
+	border:3px solid #ff6600;
+	border-collapse: collapse;
+	border-spacing:20px;
+	background-color: #F5F5F5;
+	padding:5px;
+	text-align: center; 
+}
+
+#resultscont{
+	width:900px;
+	border:3px solid #ff6600;
+	border-collapse: collapse;
+	border-spacing:20px;
+	background-color: #F5F5F5;
+	padding:10px;
+	color:#000;
+}
+
+#basketcont{
+	width:900px;
+	border:3px solid #ff6600;
+	border-collapse: collapse;
+	border-spacing:20px;
+	background-color: #F5F5F5;
+	padding:10px;
+	color:#000;
+}
+
+#resultheader table{
+	width:100%;
+	
+	padding: 0px 0px 0px 0px;
+	border:0x solid #ff6600;
+	border-collapse: collapse;
+	border-spacing:20px;	
+}
+.resultrow , .resultrow table{
+	width:100%;	
+	padding: 2px 0px 5px 0px;
+	border:0px solid #ff6600;
+	border-collapse: collapse;
+	border-spacing:20px;	
+}
+.resultrow table td{
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	font-size: 13px;
+}
+
+
+
+/* Nav Bar only below */
+nav {
+    width: 100%;
+    float: left;
+    margin: 0 0 3em 0; /*----- 1em = 16px -----*/
+    padding: 0;
+    list-style: none;
+    background-color: #ff6600;
+    border-bottom: 2px solid #F5F5F5; 
+    border-top: 2px solid #F5F5F5; 
+}
+
+nav li {
+    float: left; 
+}
+
+nav li a {
+    display: block;
+    padding: 8px 15px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #F5F5F5;
+    border-right: 1px solid #F5F5F5; 
+    border-left: 1px solid #F5F5F5;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+	
+nav li a:hover {
+    color: #ff6600;
+    background-color: #F5F5F5; 
+}
+}
+ 
+/*----- Menu Outline -----*/
+
+
+
+ 
+.menu a {
+    color:#F5F5F5;
+}
+ 
+.menu li:hover > a, .menu .current-item > a {
+    text-decoration:none;
+    color:#ff6600;
+}
+ 
+.menu .arrow {
+    font-size:11px;
+    line-height:0%;
+}
+ 
+/*----- Top Level -----*/
+.menu > ul > li {
+    float:left;
+    display:inline-block;
+    position:relative;
+    font-size:19px;
+}
+ 
+
+ 
+.menu > ul > li:hover > a, .menu > ul > .current-item > a {
+    background:#F5F5F5;
+}
+ 
+/*----- Bottom Level -----*/
+.menu li:hover .sub-menu {
+    z-index:1; 	/* z-index puts sub menu ahead of everything */
+    opacity:1;	/* opacity at 1 when menu is hovered over makes it visible  */
+}
+ 
+.sub-menu {
+    width:100%;
+    padding:5px 0px;
+    position:absolute;
+    top:100%;
+    left:0px;
+    z-index:-1;
+    opacity:0;	/* opacity at zero here hides sub-menu until hovered over */
+    transition:opacity linear 0.15s;
+    background:#2e2728;
+}
+ 
+.sub-menu li {
+    display:block;
+    font-size:16px;
+}
+ 
+.sub-menu li a {
+    padding:10px 30px;
+    display:block;
+}
+ 
+.sub-menu li a:hover, .sub-menu .current-item a {
+    background:#3e3436; /* a lighter shade than black to show what you are hovering over in sub-menu */
+}
+
+footer	{
+
+	float: left;
+	width: 100%;
+}
